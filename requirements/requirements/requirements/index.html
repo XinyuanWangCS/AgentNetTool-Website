@@ -1,0 +1,860 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../annotation/annotation/">
+      
+      
+        <link rel="next" href="../../../faq/faq_windows/">
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Requirements - AgentNet Documentations</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#annotation-requirements" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="AgentNet Documentations" class="md-header__button md-logo" aria-label="AgentNet Documentations" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AgentNet Documentations
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Requirements
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../zh/requirements/requirements/requirements/" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="AgentNet Documentations" class="md-nav__button md-logo" aria-label="AgentNet Documentations" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AgentNet Documentations
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Installation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../quickstart/windows_quick_start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Windows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../quickstart/mac_quick_start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mac
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Annotation Guidance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Annotation Guidance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../annotation/annotation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pipeline
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requirements
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/faq_windows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Windows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/faq_mac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mac
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+    
+                  
+
+
+
+<h1 id="annotation-requirements">Annotation Requirements<a class="headerlink" href="#annotation-requirements" title="Permanent link">&para;</a></h1>
+<!-- 1. The **task description** and **actions** should be generally correct, and there shouldn't be irrelevant actions.
+2. The **tasks should be diverse** (from different domains)
+3. The **task should not be too easy** (A single type/click, or a very easy 2/3-step task) **or meaningless** (Won’t be used again by other people). -->
+<h2 id="evaluation-payment-criteria">Evaluation &amp; Payment Criteria<a class="headerlink" href="#evaluation-payment-criteria" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><span style="color:red;"><strong>Important Notice</strong></span>: Please read the following part carefully. Your payment will be decided by the following criteria.</p>
+</div>
+<h2 id="acceptance-criteria"><strong>Acceptance Criteria:</strong><a class="headerlink" href="#acceptance-criteria" title="Permanent link">&para;</a></h2>
+<p>For an accepted tasks, we have three levels of quality: <span style="color:red;"> <strong>OK</strong> (partial payment), <strong>Good</strong>(full payment), <strong>Excellent</strong> (with bonus e.g. 2x full payment).</span></p>
+<p>We have two dimensions to evaluate the tasks: <strong>Complexity</strong> and <strong>Creativity</strong></p>
+<h3 id="1-complexity-how-complex-your-task-and-actions-are"><strong>1. Complexity</strong>: How complex your task and actions are.<a class="headerlink" href="#1-complexity-how-complex-your-task-and-actions-are" title="Permanent link">&para;</a></h3>
+<p>A task will be considered more complex, if it:</p>
+<ul>
+<li>
+<p><strong>Has many actions</strong></p>
+<p><img src="../assets/req1.png" style="zoom:50%;" /></p>
+</li>
+<li>
+<p><strong>Requires complex operations</strong>: Performing intricate tasks that demand advanced features or settings within a specific application.</p>
+</li>
+<li>
+<p><strong>Involves professional apps/skills</strong>: E.g. VSCode, Snowflake, BigQuery, dbt, AutoCAD, Tableau, AWS S3, VMWare, Adobe PhotoShop, etc.</p>
+</li>
+</ul>
+<p><strong>Note:</strong> Common daily life tasks (e.g. emails, zoom, Google Docs, Excel, etc.) can also be considered as good/excellent examples if they are creative/complex and involve multiple apps.</p>
+<p><strong>Note: <u>The complexity of a task is not strictly decided by action number. If a task satisfies other metrics, it will still be considered as complex. While duplicates of simple and the same task can lower the complexity. </u></strong></p>
+<h3 id="2-creativity"><strong>2. Creativity</strong><a class="headerlink" href="#2-creativity" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Diversity of tasks and domains</strong>: Your tasks should cover various domains and types, avoiding repetitively doing similar tasks such as installing many apps, creating accounts on various websites, or simply copying tasks with minor changes. <span style="color:red;">Warning</span>: Your account may be banned if this happens.</li>
+<li><strong>Involves multiple apps/websites</strong>: Complete the task requires interacting among multiple websites and apps.</li>
+</ul>
+<p><strong>Tips:</strong> You can find and refer to app/website tutorial videos on YouTube to come up with creative and complex tasks.</p>
+<h3 id="accepted-examples">Accepted Examples<a class="headerlink" href="#accepted-examples" title="Permanent link">&para;</a></h3>
+<!-- In this section, we give accepted examples at different levels. -->
+<details class="success">
+<summary>Example at the level of 'Excellent'</summary>
+<h2 id="task-description">Task Description<a class="headerlink" href="#task-description" title="Permanent link">&para;</a></h2>
+<p><img src="../assets/example_excellent/0_.jpg" style="zoom:50%;" /></p>
+<h2 id="actions">Actions<a class="headerlink" href="#actions" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-3-download-the-mp4-from-googledrive">Step 1-3: Download the mp4 from GoogleDrive<a class="headerlink" href="#step-1-3-download-the-mp4-from-googledrive" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_excellent/1_.png" style="zoom:50%;" /></p>
+<h3 id="step-4-5-open-vlc-media-player">Step 4-5: Open VLC media player<a class="headerlink" href="#step-4-5-open-vlc-media-player" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_excellent/2_.png" style="zoom:50%;" /></p>
+<h3 id="step-6-10-open-the-mp4-file-in-media-player-to-convert">Step 6-10: Open the mp4 file in media player to convert<a class="headerlink" href="#step-6-10-open-the-mp4-file-in-media-player-to-convert" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_excellent/3_.png" style="zoom:50%;" /></p>
+<h3 id="step-11-20-select-the-target-file-type-and-configure-the-export-setting">Step: 11-20 Select the target file type and configure the export setting<a class="headerlink" href="#step-11-20-select-the-target-file-type-and-configure-the-export-setting" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_excellent/4_.png" style="zoom:50%;" />
+<img src="../assets/example_excellent/5_.jpg" style="zoom:50%;" /></p>
+<h3 id="step-21-26-save-the-mp3-to-the-music-folder-on-desktop">Step: 21-26 Save the mp3 to the Music folder on desktop<a class="headerlink" href="#step-21-26-save-the-mp3-to-the-music-folder-on-desktop" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_excellent/6_.jpg" style="zoom:50%;" /></p>
+<h3 id="step-27-28-open-the-mp3-to-play-it">Step: 27-28 Open the mp3 to play it<a class="headerlink" href="#step-27-28-open-the-mp3-to-play-it" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_excellent/7_.jpg" style="zoom:50%;" /></p>
+</details>
+<details class="success">
+<summary>Example at the level of 'Good'</summary>
+<h2 id="task-description_1">Task Description<a class="headerlink" href="#task-description_1" title="Permanent link">&para;</a></h2>
+<p><img src="../assets/example_good/name.png" style="zoom:50%;" /></p>
+<h2 id="actions_1">Actions<a class="headerlink" href="#actions_1" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-2-open-onenote">Step 1-2: Open OneNote<a class="headerlink" href="#step-1-2-open-onenote" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_good/1.png" style="zoom:50%;" /></p>
+<h3 id="step-3-8-create-a-new-notebook">Step 3-8: Create a new notebook<a class="headerlink" href="#step-3-8-create-a-new-notebook" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_good/2.png" style="zoom:50%;" />
+<img src="../assets/example_good/3.png" style="zoom:50%;" /></p>
+<h3 id="step-9-14-insert-the-picture-from-desktop">Step 9-14: Insert the picture from desktop<a class="headerlink" href="#step-9-14-insert-the-picture-from-desktop" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_good/4.png" style="zoom:50%;" />
+<img src="../assets/example_good/5.png" style="zoom:50%;" /></p>
+<h3 id="step-15-set-the-name">Step 15: Set the name<a class="headerlink" href="#step-15-set-the-name" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_good/6.png" style="zoom:50%;" /></p>
+<!-- ##Review the task
+- Task name: The task name is well split into 3 steps. Each step is detailed with the exact name of the App, picture, and the location from which the picture is inserted.
+- Actions: Every action is checked. Most of the click are manually modified and grounded to the real button on the website. Redundant actions are removed. There is no missing or error actions.
+- Complexity: it has more than 10 steps, and the steps are logical. -->
+</details>
+<details class="success">
+<summary>Example at the level of 'Ok'</summary>
+<h2 id="task-description_2">Task Description<a class="headerlink" href="#task-description_2" title="Permanent link">&para;</a></h2>
+<p><img src="../assets/example_ok/name.png" style="zoom:50%;" /></p>
+<h2 id="actions_2">Actions<a class="headerlink" href="#actions_2" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-2-navigate-to-layout-tab">Step 1-2: Navigate to layout tab<a class="headerlink" href="#step-1-2-navigate-to-layout-tab" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_ok/1.png" style="zoom:50%;" /></p>
+<h3 id="step-3-5-apply-the-formula">Step 3-5: Apply the formula<a class="headerlink" href="#step-3-5-apply-the-formula" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/example_ok/2.png" style="zoom:50%;" /></p>
+<!-- ##Review the task
+- Task name: The task name is clear and detailed.
+- Actions: Every action is checked. Most of the click are manually modified and grounded to the real button on the website. Redundant actions are removed. There is no missing or error actions.
+- Complexity: relatively simple but still demonstrates a chain of operations that requires thought and planning. -->
+</details>
+<h2 id="rejection-criteria"><strong>Rejection Criteria:</strong><a class="headerlink" href="#rejection-criteria" title="Permanent link">&para;</a></h2>
+<div class="admonition failure">
+<p class="admonition-title">Rejection Criteria</p>
+<ol>
+<li><strong>Task is too simple</strong> (Fewer than 3 steps and lacks meaningful content, e.g. "Send a What's App message", "Take a screenshot and save")</li>
+<li><strong>Task is not completed or crucial actions are missing</strong></li>
+<li><strong>The task description and actions are inconsistent</strong> (e.g. Task description is about ordering hotel, but the actions are about buying flight tickets.)</li>
+<li><strong>Task description is too simple/vague</strong> (e.g. "Listen to the first song of my favourite singer")</li>
+<li><strong>Many irrelevant or unnecessary actions</strong> (E.g. click action is recorded as drag action, the position of the mouse in the screenshot is not correct)</li>
+<li><strong>Annotated tasks are similar, lack of diversity</strong> (e.g. many tasks are about drawing, or finding songs)</li>
+</ol>
+</div>
+<h3 id="rejected-examples">Rejected Examples<a class="headerlink" href="#rejected-examples" title="Permanent link">&para;</a></h3>
+<details class="failure">
+<summary>Task is too simple</summary>
+<h3 id="a-tasks-that-has-only-23-actions">a. Tasks that has only 2~3 actions.<a class="headerlink" href="#a-tasks-that-has-only-23-actions" title="Permanent link">&para;</a></h3>
+<p><img src="../assets/1.png" style="zoom:22%;" /></p>
+<div class="admonition question">
+<p class="admonition-title">How To Improve</p>
+</div>
+<p>Think of a longer workflow that contain this simple task. For example, Take a screenshot of pgAdmin, save it to the folder "Desktop/database activities", record the number in the Google Doc.</p>
+</details>
+<details class="failure">
+<summary>Task description is too simple/vague</summary>
+<h3 id="very-simplevague-task-description-that-can-not-describe-the-step-by-step-plan-of-the-task">Very simple/vague task description that can not describe the step-by-step plan of the task<a class="headerlink" href="#very-simplevague-task-description-that-can-not-describe-the-step-by-step-plan-of-the-task" title="Permanent link">&para;</a></h3>
+<p>For example: 
+    - Find an interesting movie. (You should specify how to find, the name of the movie)
+    - Delete spam emails. </p>
+</details>
+<details class="failure">
+<summary>Many irrelevant or unnecessary actions</summary>
+<p>Many meaningless actions or actions that is not related to the task goal, such as clicking the space, irrelevant scrolls...</p>
+<p><img src="../assets/irrelevant.png" style="zoom:35%;" /></p>
+</details>
+<details class="failure">
+<summary>Annotated tasks are similar, lack of diversity</summary>
+<ul>
+<li>Annotate too many tasks with the same kind: For example:<ul>
+<li>Draw a tree; draw a people; draw...</li>
+<li>Find the most popular song of XX; find the second popular song of XX; Find the most popular album of XX</li>
+</ul>
+</li>
+</ul>
+</details>
+<h2 id="find-our-feedback-on-your-task">Find our Feedback on your Task<a class="headerlink" href="#find-our-feedback-on-your-task" title="Permanent link">&para;</a></h2>
+<p>You can find our feedback on your uploaded tasks by going to <strong>Dashboard &gt; My Annotation</strong>.</p>
+<p><img src="../assets/dashboard.png" style="zoom:30%;" /></p>
+<p>We will accept (as OK/good/excellent) or reject your uploaded tasks based on our <a href="./">requirements</a>, which directly decides your payment.</p>
+<details class="success">
+<summary>Accepted Tasks</summary>
+<p>If the status is "accepted", you can see three qualities: Ok, Good, Excellent.
+<img src="../assets/accept_case.png" style="zoom:30%;" /></p>
+</details>
+<details class="failure">
+<summary>Rejected Tasks</summary>
+<p>If the status is "rejected", you can see the reasons. Please don't annotate or upload annotations with similar problems.
+<img src="../assets/reject_case.png" style="zoom:30%;" /></p>
+</details>
+<details class="note">
+<summary>Pending Tasks</summary>
+<p>If the status is "verifying", it means your task is still not verified yet. Please wait patiently.
+<img src="../assets/verifying.png" style="zoom:30%;" /></p>
+</details>
+<!-- 
+## Task Selection
+The tasks we want is a combination of daily life tasks, personalized tasks, and professional tasks. 
+
+
+
+???+ Tip "Daily Life Tasks"
+    Focus on commonly used apps or websites, such as email, Google Docs, Excel, Zoom, etc. The everyday tasks people often perform on their PCs.
+
+    ??? Success "Example"  
+        "Set up a Zoom meeting for this Sunday with JL by finding his email address from XLANG Lab Slack."
+        <img src="../assets/task11.png" style="zoom:40%;" />
+
+
+???+ Tip "Personalized Tasks"
+    If you are familiar with or interested in some apps or websites, such as music apps, HKU portal, Twitter, Intagram, Reddits, photoshop tools, video editing tools, gaming platform, ..., you can think of tasks that you usually do on these apps and websites. You can annotate tasks one by one or use the app for 15 minutes or longer and then segment them into individual tasks.
+
+    ??? Success "Example"
+        "Play a song on QQ Music, post a comment, and like a comment."
+        <img src="../assets/task21.png" style="zoom:40%;" />
+
+???+ Tip "Tasks with Professional Knowledge"
+    If you have experience with professional tools like VMware, AWS, Photoshop, Premiere Pro, AutoCAD etc., or workflows that are typical in your work, feel free to annotate these.
+
+    ??? Success "Example"
+        Create a VPC named 'my-test-vpc' with its subnet and internet gateway."
+        <img src="../assets/task32.png" style="zoom:40%;" />
+
+
+???+ Note "Task Tutorial List"
+    - We have provided a task tutorial list: [link](https://docs.google.com/spreadsheets/d/1HvgAYIvv_UgpPfOQgv473J4SlCPIl9qp8ev32FA7Muc/edit?gid=2116871868#gid=2116871868). There are three task categories: Web, OS, and Apps. 
+
+    <img src="../assets/tutorial_list.png" style="zoom:22%;" />
+
+    - You can browse the task names and pick the task that you are familiar with or interested in, open the URL, watch the tutorial video, and annotate the task follow the tutorial or personalize the task as your preference. If you use one tutorial, please add 1 on the Annotation Count.  -->
+
+<!-- When the status is "editing", you can see the guidance of how to edit in the verify_feedback. You can select and download this annotation. After downloading, you will be able to see it in your "Local" recordings. If not, please use CTRL+R to refresh the app. Then you can edit the annotation and re-upload the task.
+
+<img src="../assets/editing_case.png" style="zoom:30%;" /> -->
+<!-- 
+<img src="../assets/editing1.png" style="zoom:30%;" /> -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+    
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
