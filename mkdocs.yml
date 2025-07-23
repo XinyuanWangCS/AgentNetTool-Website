@@ -1,0 +1,122 @@
+site_name: AgentNet Documentations
+
+nav:
+  - Overview: index.md
+  - Installation:
+      - Windows: quickstart/windows_quick_start.md
+      - Mac: quickstart/mac_quick_start.md
+  - Annotation Guidance:
+      - Pipeline: requirements/annotation/annotation.md
+      - Requirements: requirements/requirements/requirements.md
+  - FAQ:
+      - Windows: faq/faq_windows.md
+      - Mac: faq/faq_mac.md
+
+theme:
+  name: material
+  favicon: assets/favicon.png
+  extra_css:
+    - assets/extra.css
+  custom_dir: theme/
+  features:
+    - navigation.top
+    - navigation.expand
+  palette:
+    - primary: white
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  # - git-authors:
+  #     show_contribution: false
+  #     show_line_count: false
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          link: /agentnet-docs/en/
+        - locale: zh
+          name: 简体中文
+          build: true
+          link: /agentnet-docs/zh/
+          nav:
+            - 概览:
+                - index.md
+            - 快速开始:
+                - quickstart/index.md
+                - 安装:
+                    - "第一步：下载 AgentNet": quickstart/installation/download.md
+                    - "第二步：配置 OBS": quickstart/installation/OBS.md
+                    - "第三步：配置 AgentNet 浏览器插件": quickstart/installation/extension.md
+                    - "第四步：打开隐私&安全设置":
+                        - macOS: quickstart/installation/permissions/macOS.md
+                        - Windows: quickstart/installation/permissions/windows.md
+            - 标注须知:
+                - 概览: requirements/requirements.md
+                - 任务选择: requirements/task_selection.md
+                - 好样例: requirements/good_examples.md
+                - 坏样例: requirements/bad_examples.md
+            - 验证流程: verify/verify.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - footnotes
+  - def_list
+  #- toc.integrate: false
+  #- toc:
+  #    permalink: true
+  #    toc_depth: 4
+  - toc:
+      toc_depth: "1-1"
+      permalink: True
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - md_in_html
+  - meta
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
