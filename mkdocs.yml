@@ -5,9 +5,9 @@ nav:
   - Installation:
       - Windows: quickstart/windows_quick_start.md
       - Mac: quickstart/mac_quick_start.md
+      - Ubuntu: quickstart/ubuntu_quick_start.md
   - Annotation Guidance:
       - Pipeline: requirements/annotation/annotation.md
-      - Requirements: requirements/requirements/requirements.md
   - FAQ:
       - Windows: faq/faq_windows.md
       - Mac: faq/faq_mac.md
@@ -44,29 +44,29 @@ plugins:
           default: true
           name: English
           build: true
-          link: /agentnet-docs/en/
-        - locale: zh
-          name: 简体中文
-          build: true
-          link: /agentnet-docs/zh/
-          nav:
-            - 概览:
-                - index.md
-            - 快速开始:
-                - quickstart/index.md
-                - 安装:
-                    - "第一步：下载 AgentNet": quickstart/installation/download.md
-                    - "第二步：配置 OBS": quickstart/installation/OBS.md
-                    - "第三步：配置 AgentNet 浏览器插件": quickstart/installation/extension.md
-                    - "第四步：打开隐私&安全设置":
-                        - macOS: quickstart/installation/permissions/macOS.md
-                        - Windows: quickstart/installation/permissions/windows.md
-            - 标注须知:
-                - 概览: requirements/requirements.md
-                - 任务选择: requirements/task_selection.md
-                - 好样例: requirements/good_examples.md
-                - 坏样例: requirements/bad_examples.md
-            - 验证流程: verify/verify.md
+          link: /
+        # - locale: zh
+        #   name: 简体中文
+        #   build: true
+        #   link: /zh/
+          # nav:
+          #   - 概览:
+          #       - index.md
+          #   - 快速开始:
+          #       - quickstart/index.md
+          #       - 安装:
+          #           - "第一步：下载 AgentNet": quickstart/installation/download.md
+          #           - "第二步：配置 OBS": quickstart/installation/OBS.md
+          #           - "第三步：配置 AgentNet 浏览器插件": quickstart/installation/extension.md
+          #           - "第四步：打开隐私&安全设置":
+          #               - macOS: quickstart/installation/permissions/macOS.md
+          #               - Windows: quickstart/installation/permissions/windows.md
+          #   - 标注须知:
+          #       - 概览: requirements/requirements.md
+          #       - 任务选择: requirements/task_selection.md
+          #       - 好样例: requirements/good_examples.md
+          #       - 坏样例: requirements/bad_examples.md
+          #   - 验证流程: verify/verify.md
 
 markdown_extensions:
   - admonition

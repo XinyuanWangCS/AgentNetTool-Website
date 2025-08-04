@@ -159,11 +159,11 @@ Examples of good and bad task descriptions are provided to illustrate our expect
         <img src="../assets/app14.png" alt="img" style="zoom:22%;">
     </div>
 
-## **Step 5: Upload the Task**
+<!-- ## **Step 5: Upload the Task**
 
 <span style="color:red;">**We cannot see your annotated task until it's uploaded. Please make sure to upload it after finished**</span> by clicking "**upload**"!
 
-<img src="../assets/app15.png" alt="img" style="zoom:22%;">
+<img src="../assets/app15.png" alt="img" style="zoom:22%;"> -->
 
 
 

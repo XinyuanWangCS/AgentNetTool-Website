@@ -3,11 +3,12 @@
 
 ## Installation Overview
 
-To use our AgentNet annotation tool, you have to install and setup the following **3** tools:
+To use our AgentNet annotation tool, you have to install and setup the following **2** tools:
 
 1. **OBS** is used for recording your desktop screen.
-2. **Browser Extension** is used for obtaining the webpage html data.
-3. **AgentNet** is a our annotation app that uses OBS to record your desktop and browser extension to get the webpage html data.
+2. **AgentNet Tool** is a our annotation app that uses OBS to record your desktop and browser extension to get the webpage html data. You can find the download link [here](https://drive.google.com/drive/folders/1fplOrubnxyPh2y71HXrT8940carHSjsq), or you can start the tool from our code repository by running `npm start`.
+
+We also provide an optional browser extension to help you annotate the webpage html data.
 
 ## Step 1: OBS Setup
 
@@ -69,7 +70,7 @@ Here's a tutorial video for all the steps mentioned. **Skip** if you've already 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u_okvcFomd0?si=7GYawr_KNn3uRkGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Step 2 Install AgentNet Browser Extension
+## Step 2 Install AgentNet Browser Extension (Optional)
 
 ### 1. Download and unzip the browser extension: [**Link**](https://drive.google.com/drive/folders/14EJGi6buBT5O4mJ-58ghMkaZf1uXS1oN)
 
