@@ -120,6 +120,6 @@ cd agentnet-annotator
 npm install
 ```
 
-We recommend you use python==3.12 and node>=v24 to run the tool.
+We recommend you use `python==3.12` and `node>=v24` to run the tool.
 
 ### 2. Start the AgentNet Tool by running `npm start`.
