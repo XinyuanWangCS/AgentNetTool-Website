@@ -2,186 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
     </url>
     <url>
         <loc>Nonefaq/faq_mac/</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonefaq/faq_mac/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/faq/faq_mac/"/>
     </url>
     <url>
         <loc>Nonefaq/faq_windows/</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonefaq/faq_windows/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/faq/faq_windows/"/>
     </url>
     <url>
         <loc>Nonequickstart/mac_quick_start/</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/mac_quick_start/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/mac_quick_start/"/>
+    </url>
+    <url>
+        <loc>Nonequickstart/ubuntu_quick_start/</loc>
+        <lastmod>2025-08-04</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/ubuntu_quick_start/"/>
     </url>
     <url>
         <loc>Nonequickstart/windows_quick_start/</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/windows_quick_start/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/windows_quick_start/"/>
     </url>
     <url>
         <loc>Nonerequirements/annotation/annotation/</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonerequirements/annotation/annotation/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/annotation/annotation/"/>
     </url>
     <url>
         <loc>Nonerequirements/requirements/requirements/</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonerequirements/requirements/requirements/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/requirements/requirements/"/>
     </url>
     <url>
         <loc>Nonerequirements/verify/verify/</loc>
-        <lastmod>2025-07-23</lastmod>
+        <lastmod>2025-08-04</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="Nonerequirements/verify/verify/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/verify/verify/"/>
-    </url>
-    <url>
-        <loc>Nonezh/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None"/>
-    </url>
-    <url>
-        <loc>Nonezh/faq/faq_mac/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/faq/faq_mac/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonefaq/faq_mac/"/>
-    </url>
-    <url>
-        <loc>Nonezh/faq/faq_windows/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/faq/faq_windows/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonefaq/faq_windows/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/mac_quick_start/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/mac_quick_start/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/mac_quick_start/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/windows_quick_start/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/windows_quick_start/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonequickstart/windows_quick_start/"/>
-    </url>
-    <url>
-        <loc>Nonezh/requirements/annotation/annotation/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/annotation/annotation/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonerequirements/annotation/annotation/"/>
-    </url>
-    <url>
-        <loc>Nonezh/requirements/requirements/requirements/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/requirements/requirements/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonerequirements/requirements/requirements/"/>
-    </url>
-    <url>
-        <loc>Nonezh/requirements/verify/verify/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/verify/verify/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonerequirements/verify/verify/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/annotation/annotation/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/annotation/annotation/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/installation/OBS/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/installation/OBS/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/installation/download/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/installation/download/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/installation/extension/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/installation/extension/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/installation/permissions/macOS/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/installation/permissions/macOS/"/>
-    </url>
-    <url>
-        <loc>Nonezh/quickstart/installation/permissions/windows/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/quickstart/installation/permissions/windows/"/>
-    </url>
-    <url>
-        <loc>Nonezh/requirements/bad_examples/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/bad_examples/"/>
-    </url>
-    <url>
-        <loc>Nonezh/requirements/good_examples/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/good_examples/"/>
-    </url>
-    <url>
-        <loc>Nonezh/requirements/requirements/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/requirements/"/>
-    </url>
-    <url>
-        <loc>Nonezh/requirements/task_selection/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/requirements/task_selection/"/>
-    </url>
-    <url>
-        <loc>Nonezh/verify/verify/</loc>
-        <lastmod>2025-07-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/verify/verify/"/>
     </url>
 </urlset>
