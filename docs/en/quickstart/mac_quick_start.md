@@ -6,7 +6,7 @@
 To use our AgentNet annotation tool, you have to install and setup the following **2** tools:
 
 1. **OBS** is used for recording your desktop screen.
-2. **AgentNet Tool** is a our annotation app that uses OBS to record your desktop and browser extension to get the webpage html data. You can find the download link [here](https://drive.google.com/drive/folders/1fplOrubnxyPh2y71HXrT8940carHSjsq), or you can start the tool from our code repository by running `npm start`.
+2. **AgentNet Tool** is a our annotation app that uses OBS to record your desktop and browser extension to get the webpage html data. You can find the download link [here](https://github.com/xlang-ai/OpenCUA/releases/tag/v1.0.0), or you can start the tool from our code repository by running `npm start`.
 
 We also provide an optional browser extension to help you annotate the webpage html data.
 
