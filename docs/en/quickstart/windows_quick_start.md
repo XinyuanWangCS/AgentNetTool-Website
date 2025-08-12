@@ -136,7 +136,7 @@ Take **Google Chrome** as an example:
 
 ## Step 3 Download and Setup AgentNet Tool
 
-### 1. Download and unzip the app from [**Link**](https://drive.google.com/drive/folders/1ycugrYPh8M2Bu6hlt1-3rZrOIxQLtseu)
+### 1. Download and unzip the app from [**Link**](https://github.com/xlang-ai/OpenCUA/releases/tag/v1.0.0)
 
 #### 1.1 Click **agentnet-annotator.exe** in the folder to open AgentNet Tool
 

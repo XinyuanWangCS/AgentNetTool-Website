@@ -116,7 +116,7 @@ Here's a tutorial video for all the steps mentioned. **Skip** if you've already 
 
 ## Step 3 Download and Setup AgentNet Tool
 
-Please download from this [**Link**](https://drive.google.com/drive/folders/1fplOrubnxyPh2y71HXrT8940carHSjsq) and double click on the .dmg file to install the AgentNet tool.
+Please download from this [**Link**](https://github.com/xlang-ai/OpenCUA/releases/tag/v1.0.0) and double click on the .dmg file to install the AgentNet tool.
 
 ### 1. OBS auto configuration through AgentNet Tool
 
